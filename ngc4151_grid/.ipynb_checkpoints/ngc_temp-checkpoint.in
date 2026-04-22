@@ -1,0 +1,9 @@
+title NGC 4151 starter model 
+table AGN
+hden <<h_density>>
+ionization par <<u_param>>
+abundances GASS
+stop efrac 0.01
+iterate to convergence
+save overview "ngc_h<<h_density>>_u<<u_param>>_ovr.txt"
+save line list column "ngc_h<<h_density>>_u<<u_param>>_out.txt" "LineListNLR.dat" last no hash

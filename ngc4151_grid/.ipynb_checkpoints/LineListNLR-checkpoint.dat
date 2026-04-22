@@ -1,0 +1,16 @@
+# this list of lines is appropriate for ionized low-density gas like the
+# NLR of an AGN 
+#
+he 2     4685.68A  #   total He II 4686 (Paschen-alpha)
+# >>chng 20 aug 22, wl from 4685.64A to 4685.70A, switched from computed to tabulated energies for H and He isoseq
+# >>chng 21 apr 08, wl from 4685.70 to 4685.68A, up 1-e energies to np
+H  1     4861.32A
+o  3     4958.91
+o  3     5006.84
+blnd  6300
+h  1     6562.80A  #   total H-alpha 6563
+n  2  6583.45
+s  2     6716.44
+Blnd     6720
+s  2     6730.82
+#
